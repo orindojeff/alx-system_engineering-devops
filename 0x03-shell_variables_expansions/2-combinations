@@ -1,0 +1,2 @@
+#!/bin/bash
+paste <(printf "%s\n" {a..z}) <(printf "%s\n" {a..z}) | grep -v "oo"
